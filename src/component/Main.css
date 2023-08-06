@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.Main{
+   
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
 #maindiv{
     width:100vw;
     height: 100vh;
@@ -29,7 +36,9 @@
     box-shadow: -20px -7px 133px 29px rgba(0,0,0,0.51);
     -webkit-box-shadow: -20px -7px 133px 29px rgba(0,0,0,0.51);
     -moz-box-shadow: -20px -7px 133px 29px rgba(0,0,0,0.51);
+
 }
+
 #innerdiv1{
     width:70%;
     height: 15%;
@@ -38,6 +47,17 @@
     align-items: center;
     justify-content:space-between;
     margin-top: 15px;
+
+}
+
+#innerdiv2{
+    width:70%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 15px;
 
 }
 
@@ -59,3 +79,47 @@
     border:none;
     border-radius: 10rem;
 }
+
+#cityname{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    text-align: center;
+    color: hotpink;
+    text-shadow: 1px 1px black;
+    border-bottom: 2px solid hotpink;
+
+}
+
+.button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5rem;
+    width:10rem;
+    border:none;
+    background-color:greenyellow;
+    border-radius: 3rem;
+}
+
+.button:hover{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5rem;
+    width:10rem;
+    border:none;
+    background-color: hotpink;
+    border-radius: 3rem;
+    color: white;
+}
+
+.text{
+    color: white;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+
+}
+
+
+
+
