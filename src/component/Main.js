@@ -39,6 +39,10 @@ function Main() {
                     <h2 className="text">
                         Temperature-{(res.temp - 273.15).toFixed(2)} celcius
                     </h2>
+                    <h4 className="text">Wind speed - {res1.speed} ||Wind degree - {res1.deg}</h4>
+                        <h4 className="text"> Min_temp :{(res.Min_temp-273.15).toFixed(2)} Celcius  || {(res.Max_temp-273.15).toFixed(2)} Celcius</h4>
+                        {/* <button className="button" onClick={(event) => { setcityname1(cityname) }}>Find</button> */}
+                        <h4 className="text">humidity:{res.humidity} gm/ml || pressure:{res.pressure} bar </h4>
                 </div>)}
 
                 </div>
