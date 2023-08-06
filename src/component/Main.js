@@ -1,8 +1,30 @@
 import React from 'react'
 import './Main.css';
-import { useState} from 'react';
+import { useState, useEffect } from 'react';
 function Main() {
-    const [cityname1, setcityname1] = useState('')
+    
+    const [cityname1, setcityname1] = useState('');
+
+
+    const [res, setres] = useState(null)
+
+
+    const[res1,setres1] = useState(null)
+
+
+    useEffect(() => {
+        const fetchapi = async () => {
+            const url = `http://api.openweathermap.org/data/2.5/weather?q=${cityname1}&appid=726d57efdf52beca6ba6257da22fca8d`;
+            const response = await fetch(url);
+            const resjson = await response.json();
+            console.log(resjson)
+            setres(resjson.main);
+            setres1(resjson.wind);
+            // console.log(resjson.main);
+        }
+        fetchapi()
+
+    }, [cityname1])
     return (
         <>
             <div id="maindiv" className="Main">
