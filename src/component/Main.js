@@ -1,4 +1,6 @@
 import React from 'react'
+import sample from './clouds.mp4';
+
 import './Main.css';
 import { useState, useEffect } from 'react';
 function Main() {
@@ -27,6 +29,12 @@ function Main() {
     }, [cityname1])
     return (
         <>
+
+
+            <video className='videoTag' autoPlay loop muted>
+                <source src={sample} type='video/mp4' />
+            </video>
+
             <div id="maindiv" className="Main">
                 <div id="innerdiv">
                     <div id="innerdiv1">
@@ -39,7 +47,7 @@ function Main() {
                         <h2 className="text">
                             Temperature-{(res.temp - 273.15).toFixed(2)} celcius
                         </h2>
-                        
+
                         <h4 className="text"> Min_temp :{(res.temp_min - 273.15).toFixed(2)} Celcius  || Max_temp :{(res.temp_max - 273.15).toFixed(2)} Celcius</h4>
                         {/* <button className="button" onClick={(event) => { setcityname1(cityname) }}>Find</button> */}
                         <h4 className="text">humidity:{res.humidity} % || pressure:{(res.pressure / 33.864).toFixed(2)

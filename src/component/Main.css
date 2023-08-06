@@ -14,9 +14,9 @@
 #maindiv{
     width:100vw;
     height: 100vh;
-    background-image: url("https://images.unsplash.com/photo-1500772579163-e0dd8b0efc48?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8d2VhdGhlcixjbG91ZHx8fHx8fDE2MzA2NjU3MzQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    /* background-image: url("https://images.unsplash.com/photo-1500772579163-e0dd8b0efc48?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8d2VhdGhlcixjbG91ZHx8fHx8fDE2MzA2NjU3MzQ&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
     background-repeat: repeat;
-    background-size: cover;
+    background-size: cover; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,6 +118,17 @@
     color: white;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 
+}
+.videoTag{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
 }
 
 
