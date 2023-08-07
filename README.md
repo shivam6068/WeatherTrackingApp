@@ -1,7 +1,11 @@
-# Getting Started with Create React App
 
-# DemoLink : marvelous-wisp-1d64e1.netlify.app
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `DEMO LINK FOR THE PROJECT`
+DEMO LINK :[ marvelous-wisp-1d64e1.netlify.app](marvelous-wisp-1d64e1.netlify.app)
+
+![Screenshot (71)](https://github.com/shivam6068/WeatherTrackingApp/assets/56030089/07b4fa32-210e-4daa-a25e-4f77b927d4b5)
+
+ 
+#This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
