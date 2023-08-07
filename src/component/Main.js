@@ -38,7 +38,7 @@ function Main() {
                     <div id="innerdiv1">
                         <h2 className="heading">Weather Finding App</h2>
                         <hr />
-                        <input className="input" type="text" placeholder="Write city name" onChange={(event) => { setcityname1(event.target.value) }} value={cityname1} />
+                        <input className="input" type="text" placeholder="Write Your City Name" onChange={(event) => { setcityname1(event.target.value) }} value={cityname1} />
                     </div>
                     {!(res && res1) ? (<p>not found</p>) : (<div id="innerdiv2">
                         <h3 id="cityname">{cityname1}</h3>

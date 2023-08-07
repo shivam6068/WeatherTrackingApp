@@ -25,17 +25,17 @@
 #innerdiv{
     width:70vw;
     height: 80vh;
-    background-image: url("https://source.unsplash.com/960x750/?weather");
+    /* background-image: url("https://source.unsplash.com/960x750/?weather");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     border-radius: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:space-between;
-    box-shadow: -20px -7px 133px 29px rgba(0,0,0,0.51);
-    -webkit-box-shadow: -20px -7px 133px 29px rgba(0,0,0,0.51);
-    -moz-box-shadow: -20px -7px 133px 29px rgba(0,0,0,0.51);
+    box-shadow: -40px -72px 173px 59px rgba(0,0,0,0.51);
+    -webkit-box-shadow: -30px -72px 163px 59px rgba(0,0,0,0.51);
+    -moz-box-shadow: -50px -72px 153px 49px rgba(0,0,0,0.51);
 
 }
 
@@ -67,7 +67,7 @@
     font-weight: bolder;
     text-align: center;
     color: hotpink;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 3px black;
 }
 
 .input{
